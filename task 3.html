@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            padding: 10%;
+        }
+
+        .parent div {
+            display: grid;
+            background-color: yellow;
+            padding: 5%;
+            justify-content: center;
+            border: 1px solid;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div style="grid-column: 1/3;">
+            <span>veggies</span>
+        </div>
+        <div>
+            <span>tomato</span>
+        </div>
+        <div>
+            <span>
+                potato
+            </span>
+        </div>
+        <div>
+            <span>onion</span>
+        </div>
+        <div style="grid-row: 2/4;">
+            <span>cost</span>
+        </div>
+        <div style="grid-row:2/3;">
+            <span>mrp</span>
+        </div>
+        <div style="grid-row: 3/4;">
+            <span>rp</span>
+        </div>
+        <div>
+            <span>20</span>
+        </div>
+        <div>
+            <span>50</span>
+        </div>
+        <div>
+            <span>80</span>
+        </div>
+        <div>
+            <span>80</span>
+        </div>
+        <div>
+            <span>70</span>
+        </div>
+        <div>
+            <span>80</span>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+            flex-wrap: wrap;
+            height: 50px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: antiquewhite;
+            font-style: italic;
+        }
+        @media screen and (max-width:400px){
+            .parent{
+                background-color: cornflowerblue;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 700px;
+            }
+        }
+        button:hover{
+            background-color: red;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"><i>Media Queries</i></h1>
+<div class="parent">
+    <div>Home</div>
+    <div>About</div>
+    <div>Contact</div>
+    <div>Project</div>
+    <div><button>Login</button></div>
+</div>
+    
+</body>
+
+</html>
